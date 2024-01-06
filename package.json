@@ -8,11 +8,49 @@
   "engines": {
     "vscode": "^1.85.0"
   },
+  "icon": "images/icon/logo.png",
   "categories": [
     "Other"
   ],
+  "extensionKind": [
+    "ui"
+  ],
+  "homepage": "https://github.com/swtanggara/chronicom-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swtanggara/chronicom-theme.git"
+  },
+  "bugs": {
+    "email": "suwartana.anggara@outlook.com",
+    "url": "https://github.com/swtanggara/chronicom-theme/issues"
+  },
+  "keywords": [
+    "chronicom",
+    "dark",
+    "theme",
+    "color-theme",
+    "dark theme"
+  ],
+  "galleryBanner": {
+    "color": "#1E599B",
+    "theme": "dark"
+  },
   "activationEvents": [],
   "main": "./dist/extension.js",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Chronicom Theme",
+        "uiTheme": "vs",
+        "path": "./themes/chronicom-light-color-theme.json"
+      },
+      {
+        "label": "Chronicom Theme (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chronicom-dark-color-theme.json"
+      }
+    ]
+  },
   "scripts": {
     "vscode:prepublish": "yarn run package",
     "compile": "webpack",
