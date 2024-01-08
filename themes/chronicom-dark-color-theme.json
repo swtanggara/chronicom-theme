@@ -271,6 +271,27 @@
       }
     },
     {
+      "scope": "text.html.markdown markup.italic",
+      "settings": {
+        "foreground": "#5F8AD2",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "scope": "text.html.markdown markup.bold",
+      "settings": {
+        "foreground": "#5F8AD2",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "text.html.markdown markup.list markup.bold",
+      "settings": {
+        "foreground": "#5F8AD2",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
       "scope": "text.html.markdown markup.heading",
       "settings": {
         "foreground": "#A88540",

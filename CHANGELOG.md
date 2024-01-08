@@ -11,3 +11,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.0.5]
 
 - Light theme markdown fix
+
+## [1.0.6]
+
+- Add markdown bold and italic color token

@@ -87,4 +87,8 @@ Initial release of Chronicom Theme
 
 Light theme markdown fix
 
+### 1.0.6
+
+Add markdown bold and italic color token
+
 **Enjoy!**
