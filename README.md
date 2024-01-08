@@ -87,4 +87,8 @@ Initial release of Chronicom Theme
 
 Change display on Visual Studio Code Marketplace
 
+### 1.0.4
+
+Change logo color
+
 **Enjoy!**

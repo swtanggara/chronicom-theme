@@ -11,3 +11,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.0.2]
 
 - Change display on Visual Studio Code Marketplace
+
+## [1.0.4]
+
+- Change logo color

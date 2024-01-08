@@ -43,8 +43,10 @@ export function activate(context: vscode.ExtensionContext) {
     } else {
       const rainbowColorsConfig = config.inspect('indentRainbow.colors');
       if (rainbowColorsConfig) {
-        const rainbowColorsConfigWorkspace = rainbowColorsConfig.workspaceValue as Array<string>;
-        const diff: Array<string> = difference(rainbowColorsConfigWorkspace, chronicomRainbows);
+        const diff: Array<string> = difference(
+          rainbowColorsConfig.workspaceValue as Array<string>,
+          chronicomRainbows,
+        );
         if (diff.length === 0) {
           config.update(
             'indentRainbow.colors',
