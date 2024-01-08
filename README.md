@@ -6,30 +6,75 @@ This is great theme for anybody who love to use blue color.
 
 This theme feature a readable coding colors (ultimately Javascript and Typescript) for light and dark theme.
 
-For example if there is an image subfolder under your extension project workspace:
+![Dark](/images/screen/chronicom-dark-screen.gif)
+![Light](/images/screen/chronicom-light-screen.gif)
 
-![Dark]\(https://github.com/swtanggara/chronicom-theme/blob/main/images/screen/chronicom-dark-screen.gif)
+## Recommendations
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+This theme is best used when you are also installing these fabulous extensions:
 
-## Requirements
+- [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow): A simple extension to make indentation more readable.
+- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag): Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text does..
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag): Automatically rename paired HTML/XML tag, same as Visual Studio IDE does.
+- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree): This extension quickly searches (using ripgrep) your workspace for comment tags like TODO and FIXME, and displays them in a tree view in the activity bar.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+This theme also recommends these Workspace Settings configuration:
 
-## Extension Settings
+```json
+"auto-close-tag.disableOnLanguage": ["typescript"],
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+"auto-rename-tag.activationOnLanguage": ["vue", "html", "xml"],
 
-For example:
+"debug.console.fontFamily": "'Maple Mono', 'Jetbrains Mono', Consolas, 'Courier New', monospace",
+"debug.toolBarLocation": "commandCenter",
 
-This extension contributes the following settings:
+"diffEditor.ignoreTrimWhitespace": false,
 
-- `myExtension.enable`: Enable/disable this extension.
-- `myExtension.thing`: Set to `blah` to do something.
+"editor.autoClosingQuotes": "always",
+"editor.bracketPairColorization.enabled": true,
+"editor.codeLensFontFamily": "'Maple Mono', 'Jetbrains Mono', Consolas, 'Courier New', monospace",
+"editor.fontFamily": "'Maple Mono', 'Jetbrains Mono', Consolas, 'Courier New', monospace",
+"editor.fontLigatures": "'cv01', 'cv02', 'cv03', 'cv04', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05'",
+"editor.fontSize": 13,
+"editor.guides.bracketPairs": "active",
+"editor.inlayHints.fontFamily": "'Maple Mono', 'Jetbrains Mono', Consolas, 'Courier New', monospace",
+"editor.mouseWheelZoom": true,
+"editor.minimap.enabled": false,
+"editor.renderWhitespace": "trailing",
+"editor.rulers": [100],
+"editor.stickyScroll.defaultModel": "foldingProviderModel",
+"editor.stickyScroll.enabled": true,
+"editor.stickyScroll.maxLineCount": 10,
+"editor.tabSize": 2,
+
+"html.format.wrapAttributes": "force-expand-multiline",
+
+"jsonColorToken.languages": ["json", "jsonc", "javascript", "javascriptreact"],
+
+"terminal.integrated.fontFamily": "'Maple Mono', 'Jetbrains Mono', Consolas, 'Courier New', monospace",
+
+"todo-tree.general.tags": ["FIXME", "BUG", "HACK", "TODO", "[x]"],
+"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+
+"workbench.editor.enablePreview": false,
+"workbench.editor.enablePreviewFromQuickOpen": false,
+"workbench.tree.enableStickyScroll": true,
+
+"zenMode.hideLineNumbers": false
+```
+
+## Why 'Maple Mono' font?
+
+It's only my preferred font. You can preview programming fonts via this great site: https://www.programmingfonts.org/#maple
+
+## Colors Setup
+
+![Dark](/images/screen/colors-dark.png)
+![Dark](/images/screen/colors-light.png)
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- [ ] Markdown not yet defined in color tokens.
 
 ## Release Notes
 
@@ -37,35 +82,6 @@ Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-- [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-- Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-- Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Initial release of Chronicom Theme
 
 **Enjoy!**
