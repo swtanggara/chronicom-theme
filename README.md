@@ -8,7 +8,7 @@ This theme feature a readable coding colors (ultimately Javascript and Typescrip
 
 For example if there is an image subfolder under your extension project workspace:
 
-\!\[feature X\]\(images/chronicom-dark-screen.gif)
+![Dark]\(https://github.com/swtanggara/chronicom-theme/blob/main/images/screen/chronicom-dark-screen.gif)
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
