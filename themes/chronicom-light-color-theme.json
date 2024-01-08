@@ -300,20 +300,22 @@
     {
       "scope": "text.html.markdown",
       "settings": {
-        "foreground": "#ACD3FF"
+        "foreground": "#4d99f0",
+        "fontStyle": "bold"
       }
     },
     {
       "scope": "text.html.markdown markup.heading",
       "settings": {
-        "foreground": "#A88540",
+        "foreground": "#99793a",
         "fontStyle": "bold"
       }
     },
     {
       "scope": "text.html.markdown string.other.link",
       "settings": {
-        "foreground": "#FFEECB"
+        "foreground": "#e6a119",
+        "fontStyle": "bold"
       }
     },
     {
@@ -332,7 +334,8 @@
     {
       "scope": "text.html.markdown markup.fenced_code.block",
       "settings": {
-        "foreground": "#BEA5A9"
+        "foreground": "#BEA5A9",
+        "fontStyle": "bold"
       }
     },
 
