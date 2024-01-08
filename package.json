@@ -3,7 +3,7 @@
   "publisher": "swtanggara",
   "displayName": "Chronicom Theme",
   "description": "A cozy dark-blue/light-blue development-friendly theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "engines": {
     "vscode": "^1.85.0"
@@ -31,7 +31,7 @@
     "blue"
   ],
   "galleryBanner": {
-    "color": "#1E599B",
+    "color": "#94b5de",
     "theme": "dark"
   },
   "activationEvents": ["*"],

@@ -16,6 +16,7 @@ This theme is best used when you are also installing these fabulous extensions:
 - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow): A simple extension to make indentation more readable.
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag): Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text does..
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag): Automatically rename paired HTML/XML tag, same as Visual Studio IDE does.
+- [Spaces Inside Braces](https://marketplace.visualstudio.com/items?itemName=AiryShift.spaces-inside-braces): Reformats braces (and others) as you type.
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree): This extension quickly searches (using ripgrep) your workspace for comment tags like TODO and FIXME, and displays them in a tree view in the activity bar.
 
 This theme also recommends these Workspace Settings configuration:
@@ -81,5 +82,9 @@ It's only my preferred font. You can preview programming fonts via this great si
 ### 1.0.0
 
 Initial release of Chronicom Theme
+
+### 1.0.2
+
+Change display on Visual Studio Code Marketplace
 
 **Enjoy!**
