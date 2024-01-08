@@ -78,8 +78,6 @@ It's only my preferred font. You can preview programming fonts via this great si
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
 Initial release of Chronicom Theme
