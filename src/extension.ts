@@ -1,6 +1,8 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
+import { difference } from 'lodash';
 import * as vscode from 'vscode';
+import { ColorThemeKind, ConfigurationTarget, window, workspace } from 'vscode';
 
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
@@ -19,6 +21,50 @@ export function activate(context: vscode.ExtensionContext) {
   // });
 
   // context.subscriptions.push(disposable);
+
+  const config = workspace.getConfiguration();
+
+  function changeRainbow(theme: vscode.ColorTheme, themeName: string) {
+    const chronicomRainbows = [
+      'rgba(77,153,240,0.07)',
+      'rgba(177,111,206,0.07)',
+      'rgba(5,173,142,0.07)',
+      'rgba(197,148,24,0.07)',
+    ];
+
+    if (
+      config.has('indentRainbow.colors') &&
+      themeName &&
+      themeName.toLocaleLowerCase().includes('chronicom') &&
+      theme &&
+      theme.kind === ColorThemeKind.Light
+    ) {
+      config.update('indentRainbow.colors', chronicomRainbows, ConfigurationTarget.Workspace);
+    } else {
+      const rainbowColorsConfig = config.inspect('indentRainbow.colors');
+      if (rainbowColorsConfig) {
+        const rainbowColorsConfigWorkspace = rainbowColorsConfig.workspaceValue as Array<string>;
+        const diff: Array<string> = difference(rainbowColorsConfigWorkspace, chronicomRainbows);
+        if (diff.length === 0) {
+          config.update(
+            'indentRainbow.colors',
+            rainbowColorsConfig.defaultValue,
+            ConfigurationTarget.Workspace,
+          );
+        }
+      }
+    }
+  }
+
+  let theme: vscode.ColorTheme = window.activeColorTheme;
+  let themeName = config.get('workbench.colorTheme') as string;
+  changeRainbow(theme, themeName);
+
+  window.onDidChangeActiveColorTheme((changedTheme: vscode.ColorTheme) => {
+    theme = changedTheme;
+    themeName = config.get('workbench.colorTheme') as string;
+    changeRainbow(theme, themeName);
+  });
 }
 
 // This method is called when your extension is deactivated

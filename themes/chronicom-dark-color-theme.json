@@ -80,8 +80,7 @@
     "class.declaration": "#E56DB4",
     "typeParameter": "#C586C0",
     "*.async": {
-      "italic": true,
-      "bold": true
+      "fontStyle": "italic bold"
     },
     "variable.declaration": "#CEE8E5",
     "variable.readonly": "#CEE8E5",
@@ -119,7 +118,7 @@
     {
       "scope": "storage.modifier",
       "settings": {
-        "fontStyle": "bold italic"
+        "fontStyle": "italic bold"
       }
     },
     {
@@ -151,11 +150,7 @@
       }
     },
     {
-      "scope": [
-        "keyword.control.trycatch",
-        "keyword.control.flow",
-        "storage.modifier.async"
-      ],
+      "scope": ["keyword.control.trycatch", "keyword.control.flow", "storage.modifier.async"],
       "settings": {
         "foreground": "#CE6B82"
       }
