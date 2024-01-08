@@ -66,16 +66,12 @@ This theme also recommends these Workspace Settings configuration:
 
 ## Why 'Maple Mono' font?
 
-It's only my preferred font. You can preview programming fonts via this great site: https://www.programmingfonts.org/#maple
+Well, it's a great font. You can preview 'Maple Mono' font via this great site: https://www.programmingfonts.org/#maple
 
 ## Colors Setup
 
 ![Dark](/images/screen/colors-dark.png)
 ![Dark](/images/screen/colors-light.png)
-
-## Known Issues
-
-- [ ] Markdown not yet defined in color tokens.
 
 ## Release Notes
 
