@@ -9,12 +9,8 @@
     "vscode": "^1.85.0"
   },
   "icon": "images/icon/logo.png",
-  "categories": [
-    "Other"
-  ],
-  "extensionKind": [
-    "ui"
-  ],
+  "categories": ["Themes"],
+  "extensionKind": ["ui"],
   "homepage": "https://github.com/swtanggara/chronicom-theme",
   "repository": {
     "type": "git",
@@ -29,15 +25,16 @@
     "dark",
     "theme",
     "color-theme",
-    "dark theme"
+    "dark theme",
+    "blue-theme",
+    "blue theme",
+    "blue"
   ],
   "galleryBanner": {
     "color": "#1E599B",
     "theme": "dark"
   },
-  "activationEvents": [
-    "*"
-  ],
+  "activationEvents": ["*"],
   "main": "./dist/extension.js",
   "contributes": {
     "themes": [
