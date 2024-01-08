@@ -83,12 +83,8 @@ It's only my preferred font. You can preview programming fonts via this great si
 
 Initial release of Chronicom Theme
 
-### 1.0.2
+### 1.0.5
 
-Change display on Visual Studio Code Marketplace
-
-### 1.0.4
-
-Change logo color
+Light theme markdown fix
 
 **Enjoy!**

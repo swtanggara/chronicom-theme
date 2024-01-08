@@ -8,10 +8,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release of Chronicom Theme
 
-## [1.0.2]
+## [1.0.5]
 
-- Change display on Visual Studio Code Marketplace
-
-## [1.0.4]
-
-- Change logo color
+- Light theme markdown fix
