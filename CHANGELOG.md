@@ -13,3 +13,8 @@ All notable changes to the "chronicom-theme" extension will be documented in thi
 ## [1.0.6]
 
 - Add markdown bold and italic color token
+
+## [1.0.7]
+
+- Language private field color token
+- SASS, SCSS color tokens

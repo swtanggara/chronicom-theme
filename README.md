@@ -72,19 +72,3 @@ Well, it's a great font. You can preview 'Maple Mono' font via this great site: 
 
 ![Dark](/images/screen/colors-dark.png)
 ![Dark](/images/screen/colors-light.png)
-
-## Release Notes
-
-### 1.0.0
-
-Initial release of Chronicom Theme
-
-### 1.0.5
-
-Light theme markdown fix
-
-### 1.0.6
-
-Add markdown bold and italic color token
-
-**Enjoy!**
