@@ -18,3 +18,9 @@ All notable changes to the "chronicom-theme" extension will be documented in thi
 
 - Language private field color token
 - SASS, SCSS color tokens
+
+## [1.0.8]
+
+- **dark-theme**: titlebar foreground to #ACD3FF([`d649f80`](https://github.com/swtanggara/chronicom-theme/commit/d649f80f4dd92e0a4950bc00bbf854323c68938d)) (by swtanggara)
+- **light-theme**: command-center and editorUnnecessaryCode.opacity([`30e55cf`](https://github.com/swtanggara/chronicom-theme/commit/30e55cfe9c36eadac020752bb9f5f2e58b5168ff)) (by swtanggara)
+- **dark-theme**: command-center and general foreground color([`6a61c21`](https://github.com/swtanggara/chronicom-theme/commit/6a61c21076c6d57d472a3ace60477b0372559025)) (by swtanggara)
