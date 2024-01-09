@@ -67,8 +67,3 @@ This theme also recommends these Workspace Settings configuration:
 ## Why 'Maple Mono' font?
 
 Well, it's a great font. You can preview 'Maple Mono' font via this great site: https://www.programmingfonts.org/#maple
-
-## Colors Setup
-
-![Dark](/images/screen/colors-dark.png)
-![Dark](/images/screen/colors-light.png)
