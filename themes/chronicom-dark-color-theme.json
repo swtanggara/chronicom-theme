@@ -77,8 +77,9 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "class": "#ACD3FF",
-    "interface": "#ACD3FF",
     "class.declaration": "#E56DB4",
+    "interface": "#ACD3FF",
+    "interface.declaration": "#E56DB4",
     "typeParameter": "#C586C0",
     "*.async": {
       "fontStyle": "italic bold"
@@ -94,7 +95,8 @@
       "fontStyle": "bold"
     },
     "enumMember": "#5da7d8",
-    "enum": "#ACD3FF"
+    "enum": "#ACD3FF",
+    "enum.declaration": "#E56DB4"
   },
   "tokenColors": [
     {
@@ -469,6 +471,16 @@
       "scope": ["source.css support.type.property-name", "source.sass support.type.property-name"],
       "settings": {
         "foreground": "#515FA9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "source.css meta.at-rule.use string.quoted",
+        "source.sass meta.at-rule.use string.quoted"
+      ],
+      "settings": {
+        "foreground": "#A88540",
         "fontStyle": "bold"
       }
     },

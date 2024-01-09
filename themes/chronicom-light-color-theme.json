@@ -82,11 +82,15 @@
       "foreground": "#4d99f0",
       "fontStyle": "bold"
     },
+    "class.declaration": {
+      "foreground": "#E56DB4",
+      "fontStyle": "bold"
+    },
     "interface": {
       "foreground": "#4d99f0",
       "fontStyle": "bold"
     },
-    "class.declaration": {
+    "interface.declaration": {
       "foreground": "#E56DB4",
       "fontStyle": "bold"
     },
@@ -95,7 +99,6 @@
       "fontStyle": "bold"
     },
     "*.async": {
-      "italic": true,
       "fontStyle": "italic bold"
     },
     "variable.declaration": {
@@ -120,6 +123,10 @@
     },
     "enum": {
       "foreground": "#4d99f0",
+      "fontStyle": "bold"
+    },
+    "enum.declaration": {
+      "foreground": "#E56DB4",
       "fontStyle": "bold"
     }
   },
