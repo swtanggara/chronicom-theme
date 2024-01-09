@@ -71,7 +71,7 @@
     "tab.inactiveBackground": "#072749",
     "tab.unfocusedHoverBorder": "#4d3a08",
     "titleBar.activeBackground": "#021f3f",
-    "titleBar.activeForeground": "#e4f0ff",
+    "titleBar.activeForeground": "#ACD3FF",
     "widget.border": "#364454"
   },
   "semanticHighlighting": true,
