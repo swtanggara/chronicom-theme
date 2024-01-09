@@ -440,26 +440,56 @@
 
     // CSS
     {
-      "scope": ["source.css", "source.css entity.other.attribute-name.class"],
+      "scope": [
+        "source.css",
+        "source.css entity.other.attribute-name.class",
+        "source.sass",
+        "source.sass entity.other.attribute-name.class"
+      ],
       "settings": {
         "foreground": "#7A63B3",
         "fontStyle": "bold"
       }
     },
     {
-      "scope": "source.css entity.name.tag",
+      "scope": [
+        "source.css variable",
+        "source.sass variable",
+        "source.css entity.other.attribute-name.placeholder",
+        "source.sass entity.other.attribute-name.placeholder"
+      ],
+      "settings": {
+        "foreground": "#5F8AD2",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "source.css entity.other.attribute-name.placeholder",
+        "source.sass entity.other.attribute-name.placeholder"
+      ],
+      "settings": {
+        "foreground": "#579dcc",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["source.css entity.name.tag", "source.sass entity.name.tag"],
       "settings": {
         "foreground": "#E56DB4"
       }
     },
     {
-      "scope": "source.css support.function",
+      "scope": ["source.css support.function", "source.sass support.function"],
       "settings": {
-        "foreground": "#A067B8"
+        "foreground": "#D8A31A"
       }
     },
     {
-      "scope": "source.css entity.other.attribute-name.id",
+      "scope": [
+        "source.css entity.other.attribute-name.id",
+        "source.sass entity.other.attribute-name.id"
+      ],
       "settings": {
         "foreground": "#C586C0"
       }
@@ -468,7 +498,10 @@
       "scope": [
         "source.css entity.other.attribute-name.pseudo-element",
         "source.css meta.attribute-selector entity.other.attribute-name",
-        "source.css support.type.vendored.property-name"
+        "source.css support.type.vendored.property-name",
+        "source.sass entity.other.attribute-name.pseudo-element",
+        "source.sass meta.attribute-selector entity.other.attribute-name",
+        "source.sass support.type.vendored.property-name"
       ],
       "settings": {
         "foreground": "#A067B8",
@@ -476,7 +509,7 @@
       }
     },
     {
-      "scope": "source.css support.type.property-name",
+      "scope": ["source.css support.type.property-name", "source.sass support.type.property-name"],
       "settings": {
         "foreground": "#515FA9",
         "fontStyle": "bold"
