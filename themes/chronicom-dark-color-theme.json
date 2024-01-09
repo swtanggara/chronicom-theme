@@ -197,6 +197,7 @@
     },
     {
       "scope": [
+        "variable.object.property",
         "variable.other.property",
         "variable.other.constant.property",
         "support.type.property-name"
@@ -240,7 +241,13 @@
       }
     },
     {
-      "scope": ["support.constant", "constant.language", "constant.numeric", "constant.other"],
+      "scope": [
+        "support.constant",
+        "constant.language",
+        "constant.numeric",
+        "constant.other",
+        "meta.property-value"
+      ],
       "settings": {
         "foreground": "#9e9e3b",
         "fontStyle": "bold"
@@ -347,7 +354,7 @@
         "source.tsx meta.tag"
       ],
       "settings": {
-        "foreground": "#4977BD",
+        "foreground": "#416aa7",
         "fontStyle": "bold"
       }
     },
@@ -415,7 +422,11 @@
       }
     },
     {
-      "scope": "source.css entity.other.attribute-name.pseudo-element",
+      "scope": [
+        "source.css entity.other.attribute-name.pseudo-element",
+        "source.css meta.attribute-selector entity.other.attribute-name",
+        "source.css support.type.vendored.property-name"
+      ],
       "settings": {
         "foreground": "#A067B8",
         "fontStyle": "bold"
