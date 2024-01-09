@@ -71,6 +71,7 @@
     "tab.hoverBackground": "#0000003b",
     "tab.inactiveBackground": "#072749",
     "tab.unfocusedHoverBorder": "#4d3a08",
+    "tab.unfocusedInactiveForeground": "#ffffff60",
     "titleBar.activeBackground": "#021f3f",
     "titleBar.activeForeground": "#ACD3FF",
     "widget.border": "#364454"
