@@ -339,13 +339,13 @@
     {
       "scope": "source.yaml",
       "settings": {
-        "foreground": "#ACD3FF"
+        "foreground": "#CEE8E5"
       }
     },
     {
       "scope": "source.yaml entity.name.tag",
       "settings": {
-        "foreground": "#FFEECB"
+        "foreground": "#5F8AD2"
       }
     },
 

@@ -388,13 +388,15 @@
     {
       "scope": "source.yaml",
       "settings": {
-        "foreground": "#ACD3FF"
+        "foreground": "#5F8AD2",
+        "fontStyle": "bold"
       }
     },
     {
       "scope": "source.yaml entity.name.tag",
       "settings": {
-        "foreground": "#FFEECB"
+        "foreground": "#1E599B",
+        "fontStyle": "bold"
       }
     },
 
