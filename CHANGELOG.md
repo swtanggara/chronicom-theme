@@ -31,3 +31,9 @@ All notable changes to the "chronicom-theme" extension will be documented in thi
 ### Bugs fixed:
 
 - **light-theme**: fix yaml colors on light-theme([`7122031`](https://github.com/swtanggara/chronicom-theme/commit/71220319c231884d35a418470b8ab99cae9f8574)), thanks to @lionel101010 (by swtanggara)
+
+## 1.0.11 (2024-01-11)
+
+### New feature:
+
+- **all-theme**: SQL and PHP support([`0163b49`](https://github.com/swtanggara/chronicom-theme/commit/0163b49b141ccda2fee2af9940b8a32a802d219f)) (by swtanggara)
