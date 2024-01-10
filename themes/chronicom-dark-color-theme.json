@@ -263,7 +263,7 @@
         "punctuation.separator.dictionary.key-value.json"
       ],
       "settings": {
-        "foreground": "#ACD3FF"
+        "foreground": "#cce2fc"
       }
     },
     {
@@ -271,6 +271,83 @@
       "settings": {
         "foreground": "#F9F871",
         "fontStyle": "italic"
+      }
+    },
+
+    // SQL
+    {
+      "scope": ["source.sql", "source.sql constant.other.database-name"],
+      "settings": {
+        "foreground": "#5079b5"
+      }
+    },
+    {
+      "scope": ["source.sql constant.other.table-name"],
+      "settings": {
+        "foreground": "#6f96cd"
+      }
+    },
+    {
+      "scope": ["source.sql keyword"],
+      "settings": {
+        "foreground": "#3463a2"
+      }
+    },
+    {
+      "scope": ["source.sql support.function", "source.sql storage.type"],
+      "settings": {
+        "foreground": "#7A63B3"
+      }
+    },
+
+    // PHP
+    {
+      "scope": ["text.html.php punctuation.section.embedded"],
+      "settings": {
+        "foreground": "#A88540"
+      }
+    },
+    {
+      "scope": ["source.php storage.type"],
+      "settings": {
+        "foreground": "#7A63B3"
+      }
+    },
+    {
+      "scope": ["source.php keyword.control"],
+      "settings": {
+        "foreground": "#CE6B82"
+      }
+    },
+    {
+      "scope": ["source.php meta.class.body variable.other"],
+      "settings": {
+        "foreground": "#CEE8E5"
+      }
+    },
+    {
+      "scope": ["source.php support.function.constructor"],
+      "settings": {
+        "foreground": "#A067B8",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["source.php support.function"],
+      "settings": {
+        "foreground": "#d8bafc"
+      }
+    },
+    {
+      "scope": ["source.php support.class", "source.php variable.other.global"],
+      "settings": {
+        "foreground": "#ACD3FF"
+      }
+    },
+    {
+      "scope": ["source.php source.sql support.function", "source.php source.sql storage.type"],
+      "settings": {
+        "foreground": "#7A63B3"
       }
     },
 
